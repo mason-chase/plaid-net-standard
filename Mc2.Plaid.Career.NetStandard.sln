@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mc2.Plaid.Career", "Mc2.Plaid.Career\Mc2.Plaid.Career.csproj", "{464C1CB6-CE12-4619-B5CF-32477825DC33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mc2.Plaid.Career.Tests", "Mc2.Plaid.Career.Tests\Mc2.Plaid.Career.Tests.csproj", "{122574A2-E9D2-4099-8AA4-C68CBBDF8841}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{464C1CB6-CE12-4619-B5CF-32477825DC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{464C1CB6-CE12-4619-B5CF-32477825DC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464C1CB6-CE12-4619-B5CF-32477825DC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{464C1CB6-CE12-4619-B5CF-32477825DC33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122574A2-E9D2-4099-8AA4-C68CBBDF8841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122574A2-E9D2-4099-8AA4-C68CBBDF8841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122574A2-E9D2-4099-8AA4-C68CBBDF8841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122574A2-E9D2-4099-8AA4-C68CBBDF8841}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81722C08-C5EB-4AE8-BAD5-79CB27D8D080}
+	EndGlobalSection
+EndGlobal

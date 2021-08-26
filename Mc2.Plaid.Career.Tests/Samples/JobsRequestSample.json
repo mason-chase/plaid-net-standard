@@ -1,0 +1,13 @@
+﻿{
+  "name": "Jenny Applicant",
+  "email": "jenny@example.com",
+  "resume": "https://www.john-doe.com/john-doe.pdf",
+  "phone": "555-867-5309",
+  "job_id": "f6416ac9-86a1-4419-908e-557f7214f0cc",
+  "github": "https://www.github.com/octocat", // optional
+  "twitter": "@example", // optional
+  "website": "https://www.example.com", // optional
+  "location": "", // optional
+  "favorite_candy": "m&m’s", // optional
+  "superpower": "multilingual" // optional
+}
