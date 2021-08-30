@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 
-namespace Mc2.Plaid.Career.Endpoints.Jobs
+namespace Mc2.Plaid.Career.Endpoints.ApplyJob
 {
-    public class JobsResponseFailed : IFailedResponse
+    public class MessageFailed : IFailedResponse
     {
         [JsonProperty("message")]
         public string Message { get; set; }

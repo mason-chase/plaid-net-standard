@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 using System;
 using System.Net.Mail;
 
-namespace Mc2.Plaid.Career.Endpoints.Jobs
+namespace Mc2.Plaid.Career.Endpoints.ApplyJob
 {
     public class JobsRequest
     {

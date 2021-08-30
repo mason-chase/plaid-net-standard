@@ -1,14 +1,14 @@
-﻿using Mc2.Plaid.Career.Endpoints.Jobs;
+﻿using Mc2.Plaid.Career.Endpoints.ApplyJob;
 
 namespace Mc2.Plaid.Career.Endpoints
 {
-    public interface IEndpoints
+    public interface IJobsEndpoints
     {
         /// <summary>
         /// Submit an application for a job
         /// </summary>
         /// <param name="jobsRequest"></param>
         /// <returns></returns>
-        JobsResponse Jobs(JobsRequest jobsRequest);
+        JobsResponse ApplyJob(JobsRequest jobsRequest);
     }
 }
