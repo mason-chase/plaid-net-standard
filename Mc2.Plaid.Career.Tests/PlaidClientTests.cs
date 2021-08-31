@@ -10,14 +10,14 @@ namespace Mc2.Plaid.Career.Tests
 {
     public class PlaidClientTests : TestBase
     {
-        private readonly char _ds = Path.DirectorySeparatorChar;
-
+        private static char _ds => Path.DirectorySeparatorChar;
         public PlaidClientTests(ITestOutputHelper output) : base(output) { }
+
 
         [Fact]
         public void WebsiteSampleDataSuccess()
         {
-            string jsonFile = File.ReadAllText($"Samples{_ds}JobsRequestSample.json");
+            string jsonFile = File.ReadAllText($"Samples{_ds}JobRequest.json");
             JobsRequest request = JsonConvert.DeserializeObject<JobsRequest>(jsonFile);
 
             PlaidCareerClient client = new();

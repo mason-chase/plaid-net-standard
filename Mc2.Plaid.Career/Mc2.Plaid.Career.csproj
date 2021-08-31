@@ -5,12 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Azihub.Appstract.ApiClient" Version="0.1.0" />
     <PackageReference Include="Azihub.Utilities.Base" Version="0.1.11" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\appstract-apiclient\Azihub.Appstract.ApiClient\Azihub.Appstract.ApiClient.csproj" />
   </ItemGroup>
 
   <ItemGroup>

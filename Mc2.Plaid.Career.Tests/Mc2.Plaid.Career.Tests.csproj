@@ -25,7 +25,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Samples\JobsRequestSample.json">
+    <None Update="Samples\JobRequest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Samples\JobRequestSample.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
